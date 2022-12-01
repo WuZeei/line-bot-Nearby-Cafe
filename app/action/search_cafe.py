@@ -14,4 +14,4 @@ def search_cafe(latitude:float,longitude:float,type:str):
         ret = randint(0,len(data))
     else:
         ret = randint(0,5)
-    return places_radar_result['results'][ret]
+    return places_radar_result['results'][ret],location
