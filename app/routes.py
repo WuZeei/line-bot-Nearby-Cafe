@@ -47,3 +47,4 @@ def handle_message(event):
             globals.initialize()
     else:
         line_bot_api.reply_message(event.reply_token,TextSendMessage(text='請先輸入你想找的店家'))
+        globals.initialize()
